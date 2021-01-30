@@ -1,0 +1,10 @@
+{
+  "name": "Datocms CV",
+  "description": "Vitae",
+  "datocmsProjectId": "41510",
+  "deploymentType": "static",
+  "buildCommand": "npm run generate",
+  "buildDirectory": "dist",
+  "datocmsApiTokenEnvName": "NUXT_ENV_DATOCMS_API_TOKEN",
+  "livePreviewUrl": ""
+}
