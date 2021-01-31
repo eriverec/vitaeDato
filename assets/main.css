@@ -5,6 +5,11 @@
   margin-bottom: 110px;
 }
 
+.section__titulo{
+  font-weight: bold;
+  font-size: 21px;  
+}
+
 .card {
   box-shadow: 0 2px 40px 0 rgb(23 41 64 / 5%), 0 5px 10px 0 rgb(23 41 64 / 10%);
   border-radius: 10px;
@@ -24,6 +29,6 @@
 
 @media (max-width: 600px) {
   .section{
-    width: 80%;
+    width: 90%;
   }
 }

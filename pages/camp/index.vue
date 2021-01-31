@@ -1,13 +1,13 @@
 <template>
   <div>
-    <section class="section mt-6">
+    <section class="section">
       <div class="card" v-for="campo in campos" v-bind:key="campo.slug">
         <div class="listing-item">
           <datocms-image
             :data="campo.imagen.responsiveImage"
             class="img__sec"
           />
-          <h1>{{ campo.titulo }}</h1>
+          <h1 class="section__titulo">{{ campo.titulo }}</h1>
           <div v-html="campo.contenido" />
         </div>
       </div>

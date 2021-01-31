@@ -4,7 +4,7 @@
       <section>
         <div class="hola">Hola</div>
       </section>
-      <p>Yo soy <strong>Eri Vera</strong></p>
+      <div class="center__soy">Soy <strong>Eri Vera</strong></div>
       <section>
         <div class="cargo">Developer Web</div>
       </section>
@@ -13,7 +13,7 @@
 </template>
 
 <style scoped>
-p {
+.center__soy {
   margin: 16px;
   font-size: 50px;
   color: #333;

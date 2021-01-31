@@ -15,7 +15,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [{
+      src: 'https://www.googletagmanager.com/gtag/js?id=UA-188514484-1',
+      async: true
+    }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -43,8 +47,12 @@ export default {
     '@nuxtjs/dotenv',
     '@nuxtjs/date-fns',
     '@nuxtjs/markdownit',
+    '@nuxtjs/google-analytics',
   ],
 
+  googleAnalytics: {
+    id: 'UA-188514484-1'
+  },
 
   markdownit: {
     injected: true,
